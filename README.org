@@ -1,1 +1,3 @@
 * Attempts to learn LaTeX
+** Tutorials
+   1. [[https://github.com/luongvo209/Begin-Latex-in-minutes][Short and Quick]]

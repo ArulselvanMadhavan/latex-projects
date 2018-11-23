@@ -1,0 +1,15 @@
+* Being Latex In Minutes
+#+NAME: basic-document
+#+header: :exports results :file basic_doc.png
+#+BEGIN_SRC latex :exports results :file basic_doc.png
+\documentclass[a4paper]{article}
+\begin{document}
+Hello World!
+\end{document}
+#+END_SRC
+
+#+RESULTS: basic-document
+#+BEGIN_LaTeX
+[[file:basic_doc.png]]
+#+END_LaTeX
+

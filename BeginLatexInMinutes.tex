@@ -1,0 +1,48 @@
+\documentclass[a4paper]{article}
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\lstdefinestyle{mystyle}{
+keywordstyle=\color{magenta},
+backgroundcolor=\color{yellow},
+commentstyle=\color{green},
+basicstyle=\footnotesize,
+}
+\lstset{style=mystyle}
+\begin{document}
+Hello World!
+Xin chào thế giới. This is Hello World in Vietnamese.
+\tableofcontents
+    \section{First Section}
+    \subsection{First Subsection}
+    \paragraph{}
+    Para starting
+    \subparagraph{}
+    Sub para starting
+    \begin{itemize}
+    \item Item
+    \end{itemize}
+    \begin{enumerate}
+    \item First One
+    \end{enumerate}
+    For more information refer\footnote{\label{myfootnote}}    
+    I am referring to myself \ref{myfootnote}    
+    \begin{align*}
+      x&=y & w &= y \\
+      4x +y &= z & 3x + y = 4z \\
+    \end{align*}
+    \begin{equation}
+      \begin{split}
+        A &= \frac{\pi r^2}{2}\\
+          &= \frac{1}{2}\pi r^2
+      \end{split}
+    \end{equation}
+\begin{lstlisting}[language=Python]
+print "Hello World!"
+\end{lstlisting}
+\begin{lstlisting}[language=Haskell]
+  putStrLn "Hello World"
+\end{lstlisting}
+\end{document}
